@@ -1,0 +1,29 @@
+<section id="features" data-transition="fade" style="background:#F5F2EC;color:#1B2230;font-family:'Public Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#A84F08">Which cues help</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase;color:#1B2230">Re-ID alone was enough here</h2>
+</div>
+<table style="font-size:26px;color:#1B2230;font-family:'Public Sans', Arial, sans-serif">
+<tr><th style="width:40%;text-align:left">Cue set</th><th style="width:30%;text-align:right">Tuning: coverage / wrong</th><th style="width:30%;text-align:right">Test: coverage / wrong</th></tr>
+<tr><td>Clothing colour only</td><td style="text-align:right">86.0% / 26</td><td style="text-align:right">75.0% / 0</td></tr>
+<tr style="background:#ECE7DD"><td><b>Re-ID (chosen)</b></td><td style="text-align:right"><b>91.9% / 0</b></td><td style="text-align:right"><b>89.7% / 0</b></td></tr>
+<tr><td>Re-ID + clothing colour</td><td style="text-align:right">91.9% / 0</td><td style="text-align:right">82.9% / 0</td></tr>
+<tr style="background:#ECE7DD"><td>… + shoes</td><td style="text-align:right">91.9% / 0</td><td style="text-align:right">82.2% / 0</td></tr>
+<tr><td>… + hair</td><td style="text-align:right">91.9% / 0</td><td style="text-align:right">85.9% / 0</td></tr>
+</table>
+<div style="display:flex;gap:28px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-left:6px solid #2F6FB0;padding:4px 0 4px 24px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#1B2230">Appearance-jump split</h3>
+<p style="font-size:24px;line-height:1.35;color:#3E4757">Without it: 16 wrong on tuning. Kept.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-left:6px solid #2F6FB0;padding:4px 0 4px 24px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#1B2230">Contact segmentation</h3>
+<p style="font-size:24px;line-height:1.35;color:#3E4757">Without it: +6 pts coverage, 12 wrong online. Kept.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-left:6px solid #2F6FB0;padding:4px 0 4px 24px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:32px;font-weight:600;color:#1B2230">Jersey numbers</h3>
+<p style="font-size:24px;line-height:1.35;color:#3E4757">Module ready; nothing to read in this clip.</p>
+</div>
+</div>
+<aside>Какие признаки реально помогают. На половине для настройки все наборы с Re-ID дали одинаковый результат, поэтому по правилу задания выбрали самый простой — только Re-ID. Проверочная половина это подтвердила: цвет одежды, обувь и волосы только снижали покрытие. Разрез траекторий при резкой смене внешности и при касаниях оставили: без них появляются ошибки. Номера модуль умеет читать, но на этом видео их нет.</aside>
+</section>

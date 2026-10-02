@@ -1,0 +1,26 @@
+<section id="speed" data-transition="fade" style="background:#12161D;color:#F5F2EC;font-family:'Public Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#F08A24">Cost</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase;color:#F5F2EC">Measured on 4 CPU cores, not the RTX 5080</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#1C222C;border-radius:16px;padding:32px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:80px;font-weight:600;line-height:1.1;color:#F08A24">0.088×</p>
+<p style="font-size:26px;line-height:1.35;color:#B8C2D1">real time: 10.4 min to analyse 54.6 s</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#1C222C;border-radius:16px;padding:32px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:80px;font-weight:600;line-height:1.1;color:#F08A24">59%</p>
+<p style="font-size:26px;line-height:1.35;color:#B8C2D1">of that time is the person detector</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#1C222C;border-radius:16px;padding:32px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:80px;font-weight:600;line-height:1.1;color:#F08A24">2.6 s</p>
+<p style="font-size:26px;line-height:1.35;color:#B8C2D1">to recompute identities after a correction</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#1C222C;border-radius:16px;padding:32px">
+<p style="font-family:'Oswald', Arial, sans-serif;font-size:80px;font-weight:600;line-height:1.1;color:#F08A24">730 MB</p>
+<p style="font-size:26px;line-height:1.35;color:#B8C2D1">peak memory; the video is streamed</p>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4;color:#B8C2D1">GPU speed and VRAM were not measured. FP16 and TensorRT come after a check on the target machine.</p>
+<aside>Скорость. Всё считалось на облачной машине с четырьмя ядрами и без видеокарты, поэтому это не производительность RTX 5080. Анализ занимает примерно в 11 раз дольше длины видео, больше половины времени уходит на детектор людей. После исправления пересчёт имён занимает пару секунд, потому что детекции кэшируются. На видеокарте ожидается многократное ускорение, но мы его не измеряли и не обещаем.</aside>
+</section>

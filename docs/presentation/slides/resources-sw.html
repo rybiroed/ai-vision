@@ -1,0 +1,42 @@
+<section id="resources-sw" data-transition="fade" style="background:#F5F2EC;color:#1B2230;font-family:'Public Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#A84F08">Resources used · 1 of 2</p>
+<h2 style="font-family:'Oswald', Arial, sans-serif;font-size:72px;font-weight:600;line-height:1.1;text-transform:uppercase;color:#1B2230">Software, models and methods</h2>
+</div>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:36px;font-weight:600;color:#A84F08">Software</h3>
+<ul style="font-size:24px;line-height:1.4;color:#3E4757">
+<li>Python 3.11, Bash, HTML/JS</li>
+<li>ONNX Runtime 1.30 — runs all networks</li>
+<li>OpenCV 5.0 — video, ORB, drawing</li>
+<li>NumPy 2.4 · SciPy 1.17 — maths</li>
+<li>Flask 3.1 — local web interface</li>
+<li>Pillow 12.3 · RapidOCR 1.4 · pytest 9.1</li>
+<li>ffmpeg / ffprobe · git · curl</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:36px;font-weight:600;color:#A84F08">Models (all Apache-2.0)</h3>
+<ul style="font-size:24px;line-height:1.4;color:#3E4757">
+<li>YOLOX-m (Megvii) — people and ball</li>
+<li>YoutuReID (OpenCV Zoo) — appearance</li>
+<li>PP-OCR via RapidOCR — numbers</li>
+<li>YOLOX-s — tested as a faster option</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-family:'Oswald', Arial, sans-serif;font-size:36px;font-weight:600;color:#A84F08">Methods (own code)</h3>
+<ul style="font-size:24px;line-height:1.4;color:#3E4757">
+<li>ByteTrack-style tracking</li>
+<li>Kalman filter</li>
+<li>ORB + RANSAC camera motion</li>
+<li>Hungarian assignment</li>
+<li>Logistic score model</li>
+<li>IDF1 and identity metrics</li>
+<li>Pinhole distance estimate</li>
+</ul>
+</div>
+</div>
+<aside>Чем пользовались, часть первая. Всё написано на Python. Нейросети запускаются через ONNX Runtime, видео обрабатывается через OpenCV, математика — NumPy и SciPy, интерфейс — Flask, для видео ffmpeg. Модели: YOLOX для людей и мяча, YoutuReID для внешности, PP-OCR через RapidOCR для номеров, все с открытой лицензией Apache-2.0. Трекер, менеджер имён и метрики написаны с нуля, чтобы не брать код под лицензией AGPL. Полный список с версиями есть в docs/RESOURCES.md.</aside>
+</section>

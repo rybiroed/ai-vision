@@ -10,6 +10,7 @@ keeps the ID through crossings and restores it after the player disappears. When
 * Ground truth and its change log: [gt/README.md](gt/README.md)
 * Business plan: [docs/BUSINESS_PLAN.md](docs/BUSINESS_PLAN.md)
 * Original brief: [docs/TASK_PROMPT.en.md](docs/TASK_PROMPT.en.md) (Russian original: [docs/TASK_PROMPT.md](docs/TASK_PROMPT.md))
+* Presentation (English slides, Russian speaker notes): [docs/presentation/](docs/presentation/)
 * Russian versions of all documents: [docs/ru/](docs/ru/)
 
 ## Results on the attached video (54.6 s, test half 27 s)
