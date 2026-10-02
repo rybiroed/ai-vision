@@ -25,7 +25,8 @@ def _nms(boxes: np.ndarray, scores: np.ndarray, thr: float) -> list[int]:
 class YoloxDetector:
     def __init__(self, model_path: str, input_size: int = 640, score_thr: float = 0.3,
                  nms_thr: float = 0.5, tiles: str = "none", threads: int = 0,
-                 providers: list[str] | None = None):
+                 providers: list[str] | None = None, cls: int = PERSON):
+        self.cls = cls
         so = ort.SessionOptions()
         if threads:
             so.intra_op_num_threads = threads
@@ -55,7 +56,7 @@ class YoloxDetector:
         out = self.sess.run(None, {self.inp: x})[0][0]
         xy = (out[:, :2] + self.grids) * self.strides
         wh = np.exp(out[:, 2:4]) * self.strides
-        score = out[:, 4] * out[:, 5 + PERSON]
+        score = out[:, 4] * out[:, 5 + self.cls]
         keep = score >= self.score_thr
         xy, wh, score = xy[keep], wh[keep], score[keep]
         boxes = np.concatenate([xy - wh / 2, xy + wh / 2], 1) / r

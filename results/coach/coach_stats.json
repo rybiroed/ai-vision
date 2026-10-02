@@ -1,0 +1,147 @@
+{
+  "players": {
+    "PLAYER_01": {
+      "visible_s": 40.7,
+      "appearances": 10,
+      "ball_s": 3.8,
+      "ball_touches": 6,
+      "dist_m": 51.6,
+      "walk_m": 24.7,
+      "run_m": 26.9,
+      "max_speed_ms": 2.73,
+      "moving_pct": 61.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_02": {
+      "visible_s": 26.2,
+      "appearances": 12,
+      "ball_s": 0.0,
+      "ball_touches": 0,
+      "dist_m": 12.8,
+      "walk_m": 9.5,
+      "run_m": 3.3,
+      "max_speed_ms": 1.02,
+      "moving_pct": 35.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_03": {
+      "visible_s": 32.7,
+      "appearances": 14,
+      "ball_s": 0.5,
+      "ball_touches": 2,
+      "dist_m": 48.2,
+      "walk_m": 19.7,
+      "run_m": 28.6,
+      "max_speed_ms": 3.42,
+      "moving_pct": 77.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_04": {
+      "visible_s": 24.4,
+      "appearances": 3,
+      "ball_s": 9.9,
+      "ball_touches": 5,
+      "dist_m": 10.1,
+      "walk_m": 10.1,
+      "run_m": 0.0,
+      "max_speed_ms": 1.53,
+      "moving_pct": 35.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_05": {
+      "visible_s": 15.9,
+      "appearances": 8,
+      "ball_s": 0.4,
+      "ball_touches": 1,
+      "dist_m": 9.9,
+      "walk_m": 7.5,
+      "run_m": 2.4,
+      "max_speed_ms": 1.33,
+      "moving_pct": 44.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_06": {
+      "visible_s": 13.3,
+      "appearances": 8,
+      "ball_s": 0.0,
+      "ball_touches": 0,
+      "dist_m": 3.6,
+      "walk_m": 2.4,
+      "run_m": 1.2,
+      "max_speed_ms": 2.02,
+      "moving_pct": 50.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_07": {
+      "visible_s": 5.8,
+      "appearances": 4,
+      "ball_s": 0.0,
+      "ball_touches": 0,
+      "dist_m": 7.5,
+      "walk_m": 3.9,
+      "run_m": 3.7,
+      "max_speed_ms": 2.92,
+      "moving_pct": 98.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_08": {
+      "visible_s": 8.6,
+      "appearances": 3,
+      "ball_s": 0.0,
+      "ball_touches": 0,
+      "dist_m": 14.2,
+      "walk_m": 3.6,
+      "run_m": 10.6,
+      "max_speed_ms": 3.56,
+      "moving_pct": 88.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    },
+    "PLAYER_09": {
+      "visible_s": 8.6,
+      "appearances": 4,
+      "ball_s": 0.0,
+      "ball_touches": 0,
+      "dist_m": 3.4,
+      "walk_m": 3.4,
+      "run_m": 0.0,
+      "max_speed_ms": 1.48,
+      "moving_pct": 59.0,
+      "sprints": 0,
+      "height_m_used": 1.75
+    }
+  },
+  "meta": {
+    "f_px": 665.5,
+    "assumptions": {
+      "player_height_m": 1.75,
+      "fov_long_side_deg": 65.0
+    },
+    "unknown_detections": 1110,
+    "balls_attributed": 404,
+    "config": {
+      "player_height_m": 1.75,
+      "fov_long_side_deg": 65.0,
+      "pos_min_height_px": 45,
+      "pos_max_occlusion": 0.25,
+      "smooth_frames": 9,
+      "step_frames": 5,
+      "max_plausible_speed": 9.0,
+      "move_speed": 0.7,
+      "run_speed": 2.0,
+      "sprint_speed": 4.5,
+      "sprint_min_s": 0.7,
+      "ball_min_score": 0.25,
+      "ball_fill_gap": 6,
+      "ball_merge_gap": 15,
+      "ball_min_run": 3
+    }
+  }
+}
