@@ -1,91 +1,91 @@
-# Бизнес-план: «персональное видео и статистика игрока» на базе hoopid
+# Business plan: "personal player video and stats" built on hoopid
 
-Это мой взгляд инженера на то, как превратить прототип в продукт. Технические цифры взяты из
-`docs/REPORT.md` (измерены на одном 55-секундном ролике). Все рыночные цифры — **гипотезы для проверки**,
-а не данные исследования.
+This is my view as an engineer on how to turn the prototype into a product. Technical figures come
+from `docs/REPORT.md` (measured on one 55-second clip). All market figures are **hypotheses to
+validate**, not research data. Russian original: `docs/ru/BUSINESS_PLAN.ru.md`.
 
-## 1. Проблема и клиент
+## 1. Problem and customer
 
-Любительский и юношеский баскетбол (секции, AAU-подобные лиги, лагеря, школы) снимают на телефоны.
-Родители, тренеры и сами игроки хотят **видео именно своего игрока**: нарезки владений, минуты на площадке,
-позже — простую статистику. Сейчас это делается вручную: часы просмотра или работа видеооператора-аналитика.
+Amateur and youth basketball (clubs, AAU-style leagues, camps, schools) is filmed on phones.
+Parents, coaches and players want **video of their own player**: possession clips, minutes on court,
+and later simple stats. Today this is done by hand: hours of viewing or a video analyst.
 
-Ключевое: такой материал **без формы и номеров** (как в нашем ролике) или с плохо читаемыми номерами.
-Решения, которые полагаются на номер на форме, здесь не работают. Сохранение личности по внешности в пределах
-одного матча с подтверждением человеком — то, что умеет прототип.
+Key point: such footage has **no uniforms or numbers** (like our clip) or barely legible numbers.
+Solutions that rely on jersey numbers do not work here. Keeping identity by appearance within one match,
+confirmed by a human, is what the prototype can do.
 
-Сегменты (по порядку входа):
-1. **Тренеры и академии** (B2B): разбор игроков после тренировок и игр, отчёт по каждому.
-2. **Родители и игроки** (B2C через академию): персональный хайлайт-ролик и минуты на площадке.
-3. **Организаторы турниров и лагерей**: пакет «видео каждого участника» как платная опция.
+Segments (in order of entry):
+1. **Coaches and academies** (B2B): player reviews after practices and games, a report per player.
+2. **Parents and players** (B2C through the academy): a personal highlight reel and minutes on court.
+3. **Tournament and camp organisers**: a "video of every participant" package as a paid add-on.
 
-## 2. Продукт по этапам
+## 2. Product stages
 
-| Этап | Что продаём | Технология | Критерий готовности |
+| Stage | What we sell | Technology | Done when |
 |---|---|---|---|
-| **MVP (3 мес.)** | «Ролик игрока»: загрузили запись → отметили игроков в 3–5 кадрах → получили отдельный ролик для каждого и время на площадке | текущий прототип + сервис на GPU + проверка оператором | на 10+ реальных матчах: 0 неверных назначений после проверки, ≤ 15 мин работы оператора на матч |
-| **v1 (6–9 мес.)** | + статистика присутствия, тепловая карта (калибровка площадки), выгрузка для тренера | гомография площадки, дообученный Re-ID, номера при наличии формы | покрытие ≥ 95% без правки на независимых матчах |
-| **v2 (12+ мес.)** | броски, передачи, владения (вне рамок прототипа сейчас) | детекция мяча и событий | отдельная валидация |
+| **MVP (3 months)** | "Player reel": upload a recording → tag players in 3–5 frames → get a separate reel per player and time on court | current prototype + GPU service + operator review | on 10+ real matches: 0 wrong assignments after review, ≤ 15 min of operator work per match |
+| **v1 (6–9 months)** | + presence stats, heat map (court calibration), coach export | court homography, fine-tuned Re-ID, numbers when uniforms exist | ≥ 95% coverage without corrections on independent matches |
+| **v2 (12+ months)** | shots, passes, possessions (currently out of scope) | ball and event detection | separate validation |
 
-Принцип продукта, унаследованный от прототипа: **лучше «не знаю», чем чужое имя**. Сомнительные фрагменты
-уходят на проверку человеку, а не в ролик клиента.
+Product principle inherited from the prototype: **"I don't know" is better than someone else's name**.
+Doubtful fragments go to a human reviewer, not into the client's reel.
 
-## 3. Модель выручки (гипотезы)
+## 3. Revenue model (hypotheses)
 
-* **Академии/команды:** подписка за команду в месяц (обработка N матчей) и доплата за матч сверх лимита.
-* **Турниры/лагеря:** за участника за событие (ролик и минуты) или revenue-share с организатором.
-* **Родители:** разовая покупка ролика своего ребёнка через академию или турнир.
+* **Academies/teams:** monthly subscription per team (N matches processed) plus a fee per extra match.
+* **Tournaments/camps:** per participant per event (reel and minutes) or revenue share with the organiser.
+* **Parents:** one-off purchase of their child's reel through the academy or tournament.
 
-Цены нужно проверить интервью и пилотом. Отправная гипотеза: ролик игрока должен стоить заметно меньше,
-чем час работы видеоаналитика, иначе клиент сделает его вручную.
+Prices must be validated with interviews and a pilot. Starting hypothesis: a player reel must cost clearly less
+than an hour of a video analyst's work, otherwise the client will make it by hand.
 
-## 4. Юнит-экономика: что известно и что нет
+## 4. Unit economics: what is known and what is not
 
-| Статья | Что измерено | Что предстоит измерить |
+| Item | Measured | Still to measure |
 |---|---|---|
-| Вычисления | CPU 4 vCPU: 0,088× реального времени, т.е. ~11,4 ч CPU на час видео. Детектор — 59% времени, Re-ID — 35% | скорость на RTX 5080 / облачном GPU с FP16. Ожидаю многократное ускорение (**не измерено**) |
-| Проверка оператором | 17 операций на 55 с плотного видео (модель с идеальным оператором) | реальное время оператора. Интерфейс уже пишет `seconds_spent`. **Сейчас это главный риск маржи**: на плотном материале правки занимают часы на час записи |
-| Хранение | исходник 8,9 МБ на 55 с (≈ 0,6 ГБ/ч при таком качестве) | политика хранения: удалять исходники через N дней |
+| Compute | CPU 4 vCPU: 0.088× real time, i.e. ~11.4 CPU-hours per hour of video. Detector 59% of the time, Re-ID 35% | speed on RTX 5080 / cloud GPU with FP16. I expect a many-fold speed-up (**not measured**) |
+| Operator review | 17 operations per 55 s of dense video (model with a perfect operator) | real operator time. The UI already logs `seconds_spent`. **This is the main margin risk now**: on dense footage corrections take hours per hour of recording |
+| Storage | source 8.9 MB per 55 s (≈ 0.6 GB/h at this quality) | retention policy: delete sources after N days |
 
-Вывод: продукт экономически жизнеспособен, только если (1) GPU-обработка дешёвая и (2) работа оператора
-падает до минут на матч. Пункт 2 упирается в качество Re-ID и в съёмку: стабильная камера, горизонтальный кадр, 1080p.
-Поэтому первая инвестиция — данные и дообучение, а не интерфейс.
+Conclusion: the product is viable only if (1) GPU processing is cheap and (2) operator work drops
+to minutes per match. Point 2 depends on Re-ID quality and on filming: a stable camera, landscape frame, 1080p.
+So the first investment is data and fine-tuning, not the interface.
 
-## 5. Как снизить работу оператора (технический план)
+## 5. How to cut operator work (technical plan)
 
-1. Требования к съёмке для клиента: штатив, горизонтальный кадр, вся площадка, 1080p/30.
-   Это дёшево и сильнее всего влияет на результат.
-2. Дообучить Re-ID на баскетбольных кропах из пилотных матчей (с согласием) и брать регистрацию из нескольких эпизодов.
-3. Связывать сегменты через контакт по траектории ног и направлению движения: в абляции это +5–7 п.п. покрытия.
-4. Форма и номера там, где они есть: модуль готов.
-5. Очередь проверки в порядке пользы: сначала длинные UNKNOWN-сегменты (17 операций закрыли разрыв 91% → 95%).
+1. Filming requirements for clients: tripod, landscape frame, whole court, 1080p/30.
+   This is cheap and has the biggest effect on results.
+2. Fine-tune Re-ID on basketball crops from pilot matches (with consent) and take registration from several episodes.
+3. Link segments across contacts using foot trajectory and direction of motion: +5–7 points of coverage in the ablation.
+4. Uniforms and numbers where they exist: the module is ready.
+5. Review queue ordered by value: the longest UNKNOWN segments first (17 operations closed the gap 91% → 95%).
 
-## 6. Конкуренция (проверить)
+## 6. Competition (to verify)
 
-Есть зрелые продукты автоматической съёмки и видеоаналитики для спорта: умные камеры с автоматическим
-слежением и платформы видеоанализа для команд. Они сильны там, где есть своя камера и форма с номерами.
-Позиционирование hoopid: **любой ролик с телефона, без формы, с гарантией «не перепутаем ребёнка»**
-благодаря проверке человеком. Перед запуском нужен разбор конкретных продуктов, цен и функций —
-я не привожу их здесь, чтобы не выдавать непроверенные данные за факты.
+There are mature products for automatic filming and video analytics in sport: smart cameras with automatic
+tracking and video-analysis platforms for teams. They are strong where they have their own camera and uniforms with numbers.
+hoopid's positioning: **any phone clip, no uniforms, with a "we won't mix up your child" guarantee**
+thanks to human review. A review of specific products, prices and features is needed before launch;
+I do not list them here so as not to present unverified data as fact.
 
-## 7. Право и этика (обязательная часть)
+## 7. Law and ethics (mandatory)
 
-* В кадре **дети**. Нужны согласие родителей и организатора на обработку, понятная политика конфиденциальности,
-  удаление по запросу. Требования зависят от юрисдикции (например, GDPR в ЕС, COPPA и законы штатов о биометрии в США,
-  152-ФЗ в РФ). Нужна консультация юриста **до** пилота.
-* Система **не распознаёт лица** и не хранит биометрию между матчами: идентичность живёт в пределах
-  одного матча и строится по одежде. Это и продуктовое, и правовое преимущество — его нужно сохранить.
-* Не определять расу и этническую принадлежность, не использовать цвет кожи как признак (в прототипе он не извлекается).
-* Лицензии моделей: веса Re-ID и детектора обучены на датасетах с ограничениями. Для коммерции нужно своё дообучение (см. `MODELS_AND_LICENSES.md`).
+* **Children** are in the frame. Consent from parents and the organiser, a clear privacy policy and
+  deletion on request are required. Requirements depend on jurisdiction (e.g. GDPR in the EU, COPPA and state biometric laws in the US,
+  152-FZ in Russia). Legal advice is needed **before** the pilot.
+* The system **does not recognise faces** and keeps no biometrics between matches: identity lives within
+  one match and is built from clothing. This is both a product and a legal advantage, and must be kept.
+* Do not infer race or ethnicity, do not use skin colour as a cue (the prototype does not extract it).
+* Model licences: the Re-ID and detector weights were trained on datasets with restrictions. Commercial use needs own fine-tuning (see `MODELS_AND_LICENSES.md`).
 
-## 8. План на 90 дней
+## 8. 90-day plan
 
-| Недели | Действие | Результат |
+| Weeks | Action | Result |
 |---|---|---|
-| 1–2 | Прогон прототипа на RTX 5080 (скорость, VRAM); 3–5 записей полных матчей от 1–2 академий со штатива | реальные цифры скорости и работы оператора |
-| 3–6 | Разметка 2–3 матчей, независимая проверка; дообучение Re-ID; связывание через контакт | покрытие и ошибки на чужих матчах |
-| 7–10 | Сервис: загрузка → регистрация → проверка → ролики игроков; учёт времени оператора | MVP для пилота |
-| 11–13 | Платный пилот с 2–3 академиями | готовность платить, NPS, фактическая маржа |
+| 1–2 | Run the prototype on an RTX 5080 (speed, VRAM); 3–5 full-match recordings from 1–2 academies on a tripod | real speed and operator-work figures |
+| 3–6 | Label 2–3 matches, independent validation; fine-tune Re-ID; link across contacts | coverage and errors on unseen matches |
+| 7–10 | Service: upload → registration → review → player reels; operator time logging | MVP for the pilot |
+| 11–13 | Paid pilot with 2–3 academies | willingness to pay, NPS, actual margin |
 
-**Решение «идти дальше / остановиться»** после пилота: 0 неверных имён в выданных роликах, ≤ 15 минут
-проверки на матч, готовность хотя бы 2 из 3 пилотных клиентов платить.
+**Go / stop decision** after the pilot: 0 wrong names in delivered reels, ≤ 15 minutes of
+review per match, at least 2 of 3 pilot clients willing to pay.

@@ -1,40 +1,41 @@
-# Модели, версии, источники, лицензии
+# Models, versions, sources, licences
 
-Проверено 2026-10-02 по файлам LICENSE и страницам источников. Это техническая сводка, а не
-юридическое заключение. Перед коммерческим запуском её должен проверить юрист.
+Checked on 2026-10-02 against LICENSE files and source pages. This is a technical summary, not
+legal advice; a lawyer must review it before commercial launch. Full inventory of everything used:
+`docs/RESOURCES.md`. Russian original: `docs/ru/MODELS_AND_LICENSES.ru.md`.
 
-## Модели
+## Models
 
-| Назначение | Модель | Источник (точный URL) | SHA-256 | Лицензия кода/весов | Почему выбрана |
+| Purpose | Model | Source (exact URL) | SHA-256 | Code/weights licence | Why chosen |
 |---|---|---|---|---|---|
-| Детектор людей | YOLOX-m, COCO, ONNX, вход 640×640 | github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_m.onnx | `21ff6cfd…3f` | Apache-2.0 | разрешительная лицензия (в отличие от AGPL-3.0 у Ultralytics YOLOv8/11), готовый ONNX, хорошая точность на мелких людях. Альтернатива YOLOX-s (`c5c2d13e…63`) в 2 раза быстрее на CPU, точность не сравнивалась |
-| Re-ID внешности | YoutuReID (2021nov), 768-d, ONNX, вход 128×256 | media.githubusercontent.com/media/opencv/opencv_zoo/main/models/person_reid_youtureid/person_reid_youtu_2021nov.onnx | `05796833…0d` | Apache-2.0 (models/LICENSE_youtureid) | доступна в этой среде (Hugging Face и Google Drive с весами OSNet здесь заблокированы), разрешительная лицензия; AUC «тот же / другой» на настройке 0,996 |
-| OCR номеров | RapidOCR 1.4.4 (PP-OCR det+rec, ONNX, веса внутри wheel) | PyPI `rapidocr-onnxruntime==1.4.4` | — | Apache-2.0 | работает на CPU без внешних загрузок |
+| Person detector (and ball, COCO class 32) | YOLOX-m, COCO, ONNX, 640×640 input | github.com/Megvii-BaseDetection/YOLOX/releases/download/0.1.1rc0/yolox_m.onnx | `21ff6cfd…3f` | Apache-2.0 | permissive licence (unlike AGPL-3.0 Ultralytics YOLOv8/11), ready ONNX, good accuracy on small people. Alternative YOLOX-s (`c5c2d13e…63`) is 2× faster on CPU; accuracy not compared |
+| Appearance Re-ID | YoutuReID (2021nov), 768-d, ONNX, 128×256 input | media.githubusercontent.com/media/opencv/opencv_zoo/main/models/person_reid_youtureid/person_reid_youtu_2021nov.onnx | `05796833…0d` | Apache-2.0 (models/LICENSE_youtureid) | reachable from this environment (Hugging Face and the Google Drive hosting OSNet weights were blocked), permissive licence; "same / different" AUC on tuning 0.996 |
+| Number OCR | RapidOCR 1.4.4 (PP-OCR det+rec, ONNX, weights inside the wheel) | PyPI `rapidocr-onnxruntime==1.4.4` | — | Apache-2.0 | runs on CPU without external downloads |
 
-Полные хеши — `scripts/models.sha256`.
+Full hashes: `scripts/models.sha256`.
 
-**Риски по данным обучения.** Веса COCO обучены на изображениях Flickr с разными CC-лицензиями.
-Публичные Re-ID-модели, как правило, обучены на Market-1501, DukeMTMC, MSMT17 и подобных наборах, и у них
-ограничения «только для исследований» (DukeMTMC отозван). Для YoutuReID набор данных обучения в карточке
-OpenCV Zoo явно не указан. Для коммерческого продукта Re-ID нужно дообучить или переобучить на собственных
-данных с согласием.
+**Training-data risks.** COCO weights were trained on Flickr images under various CC licences.
+Public Re-ID models are usually trained on Market-1501, DukeMTMC, MSMT17 and similar datasets, which are
+research-only (DukeMTMC was withdrawn). The OpenCV Zoo card does not state YoutuReID's training data explicitly.
+A commercial product should fine-tune or retrain Re-ID on its own consented data.
 
-## Библиотеки (зафиксировано в requirements.txt)
+## Libraries (pinned in requirements.txt)
 
-| Пакет | Версия | Лицензия |
+| Package | Version | Licence |
 |---|---|---|
 | onnxruntime | 1.30.0 | MIT |
-| opencv-python-headless | 5.0.0.93 | Apache-2.0 (OpenCV), MIT (обёртка); внутри FFmpeg под LGPL |
+| opencv-python-headless | 5.0.0.93 | Apache-2.0 (OpenCV), MIT (wrapper); bundles FFmpeg under LGPL |
 | numpy | 2.4.6 | BSD-3 |
 | scipy | 1.17.1 | BSD-3 |
 | Flask | 3.1.3 | BSD-3 |
-| rapidocr-onnxruntime | 1.4.4 | Apache-2.0 (тянет opencv-python и PyYAML, Shapely, pyclipper, six — MIT/BSD/Boost) |
-| ffmpeg / ffprobe (системные) | вызываются как отдельные программы | LGPL/GPL в зависимости от сборки, не линкуются |
+| Pillow | 12.3.0 | MIT-CMU (HPND) |
+| rapidocr-onnxruntime | 1.4.4 | Apache-2.0 (pulls opencv-python and PyYAML, Shapely, pyclipper, six — MIT/BSD/Boost) |
+| ffmpeg / ffprobe (system) | called as separate programs | LGPL/GPL depending on build, not linked |
 
-## Осознанно не использовано
+## Deliberately not used
 
-* Ultralytics YOLOv8/YOLO11 и BoxMOT — AGPL-3.0: требуют открыть исходники сетевого сервиса или
-  купить коммерческую лицензию.
-* Генеративное увеличение разрешения: запрещено постановкой как доказательство деталей.
-* Лица: распознавание лиц не используется вовсе. Это биометрия (а в кадре дети), и на такой
-  дистанции лица всё равно не различимы.
+* Ultralytics YOLOv8/YOLO11 and BoxMOT: AGPL-3.0, would require open-sourcing a network service or
+  buying a commercial licence.
+* Generative super-resolution: forbidden by the brief as evidence of details.
+* Faces: face recognition is not used at all. It is biometrics (and there are children in frame), and faces
+  are not distinguishable at this distance anyway.

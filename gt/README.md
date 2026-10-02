@@ -1,35 +1,37 @@
-# Ручная эталонная разметка
+# Manual ground truth
 
-## Метод
+Russian original: `docs/ru/GT_README.ru.md`.
 
-1. Траектории трекера (конфигурация на момент разметки) разрезаны на отрезки («units»): по контактам
-   рамок (IoU ≥ 0,05), по пропускам > 3 кадров и не длиннее 45 кадров (1,5 с). Состав отрезков — `units.json`
-   (индексы детекций в предрасчёте `runs/full/precompute`).
-2. Каждый отрезок от 4 кадров (456 отрезков, 8514 детекций) размечен вручную: по листу из 6 кропов,
-   равномерно взятых по отрезку. Метки:
-   * имя участника (`tank`, `navy_man`, `black_print`, `rtn_kid`, `olive_man`, `red_shorts`, `gray_man`,
-     `old_tank`, `black_khaki_man`) — описательные, без связи с реальными именами;
-   * `OTHER` — любой другой человек (соседние площадки, у окон, проходящие);
-   * `AMBIG` — в отрезке видны два человека, или по кропам нельзя уверенно судить. Такие отрезки исключаются из метрик.
-3. `det_labels.csv` — метка на каждую детекцию; `unit_labels.txt` — метки отрезков;
-   `registration_map.json` — какой `PLAYER_XX` соответствует какой метке.
-4. Не размечены 842 детекции из 9356 (9%): 477 не попали ни в одну траекторию, 365 лежат в отрезках короче 4 кадров. В метриках они не участвуют.
+## Method
 
-Разметку делал один разметчик (сам автор прототипа, ИИ-ассистент) по кропам 40–470 px. Независимой
-перекрёстной проверки не было. Ошибка разметки возможна. Одна найдена и исправлена (см. журнал).
+1. Tracker tracks (configuration at labelling time) were cut into pieces ("units"): at box contacts
+   (IoU ≥ 0.05), at gaps > 3 frames, and no longer than 45 frames (1.5 s). Unit membership: `units.json`
+   (detection indices in the precompute `runs/full/precompute`).
+2. Every unit of 4+ frames (456 units, 8514 detections) was labelled by hand from a sheet of 6 crops
+   sampled evenly across the unit. Labels:
+   * participant name (`tank`, `navy_man`, `black_print`, `rtn_kid`, `olive_man`, `red_shorts`, `gray_man`,
+     `old_tank`, `black_khaki_man`): descriptive, unrelated to real names;
+   * `OTHER`: anyone else (neighbouring courts, by the windows, passers-by);
+   * `AMBIG`: two people visible in the unit, or impossible to judge from crops. Such units are excluded from metrics.
+3. `det_labels.csv`: a label per detection; `unit_labels.txt`: unit labels;
+   `registration_map.json`: which `PLAYER_XX` corresponds to which label.
+4. 842 of 9356 detections (9%) are not labelled: 477 belong to no track, 365 lie in units shorter than 4 frames. They are not part of the metrics.
 
-## Разделение
+Labelling was done by one annotator (the prototype's author, an AI assistant) from crops of 40–470 px. There was no
+independent cross-check. Labelling errors are possible; one was found and fixed (see the log).
 
-* настройка: кадры 0–819 — регистрация, модель оценки, пороги, выбор признаков;
-* тест: кадры 820–1637 — только итоговая оценка.
+## Split
 
-## Журнал изменений
+* tuning: frames 0–819 (registration, score model, thresholds, feature selection);
+* test: frames 820–1637 (final evaluation only).
 
-* **v1** — первичная разметка. Мужчина в чёрной футболке с логотипом и бежевых брюках размечен как два
-  человека: `black_khaki_man` (кадры 0–300) и `dread_man` (кадры 819+). Решение принималось по мелким кропам.
-* **v2** — после того как система на тесте присвоила `dread_man` ID PLAYER_09, крупные кропы всех
-  появлений проверены заново (`docs/img/gt_fix_same_person.jpg`). Везде одни и те же дреды, футболка с логотипом,
-  брюки и обувь. Отрезки 418, 419, 420, 424, 492, 494 переименованы в `black_khaki_man`, а 635, 636, 639
-  переведены из `AMBIG` в `black_khaki_man`.
-  Все эти отрезки находятся в тестовой половине, на настройку и выбор параметров изменение не влияет.
-  Метрики по v1 сохранены в `results/experiments_gt_v1_before_gt_fix.json`.
+## Change log
+
+* **v1**: initial labelling. A man in a black logo T-shirt and beige trousers was labelled as two
+  people: `black_khaki_man` (frames 0–300) and `dread_man` (frames 819+), decided from small crops.
+* **v2**: after the system assigned PLAYER_09 to `dread_man` on the test half, large crops of all
+  appearances were re-checked (`docs/img/gt_fix_same_person.jpg`): the same dreadlocks, logo T-shirt,
+  trousers and shoes everywhere. Units 418, 419, 420, 424, 492, 494 were renamed to `black_khaki_man`, and 635, 636, 639
+  moved from `AMBIG` to `black_khaki_man`.
+  All these units are in the test half; the change did not affect tuning or parameter selection.
+  Metrics against v1 are kept in `results/experiments_gt_v1_before_gt_fix.json`.

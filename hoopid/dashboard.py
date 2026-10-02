@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 from .video import iter_frames
 
-PANEL_W = 600
+PANEL_W = 640
 FONT_PATHS = ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
               "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
               "C:/Windows/Fonts/arial.ttf"]
@@ -90,11 +90,11 @@ def render(video: str, tracks_csv: str, timeline: dict, summary: dict, meta: dic
         # ---- right: panel
         panel = Image.new("RGB", (PANEL_W, H), (24, 26, 31))
         d = ImageDraw.Draw(panel)
-        d.text((16, 12), "Панель тренера", font=f_title, fill=(255, 255, 255))
-        d.text((16, 42), f"время {fr.t:5.1f} с   кадр {fr.idx}", font=f_small, fill=(170, 175, 185))
-        cols = [("Игрок", 16), ("Статус", 74), ("В кадре", 172), ("С мячом", 250), ("Касаний", 328),
-                ("Дист.", 404), ("Бег", 466), ("Скор.", 524)]
-        units = ["", "", "с", "с", "", "м", "м", "м/с"]
+        d.text((16, 12), "Coach panel", font=f_title, fill=(255, 255, 255))
+        d.text((16, 42), f"time {fr.t:5.1f} s   frame {fr.idx}", font=f_small, fill=(170, 175, 185))
+        cols = [("Player", 16), ("Status", 74), ("On screen", 176), ("With ball", 270), ("Touches", 362),
+                ("Dist.", 446), ("Run", 510), ("Speed", 568)]
+        units = ["", "", "s", "s", "", "m", "m", "m/s"]
         y0 = 68
         for (name, x), u in zip(cols, units):
             d.text((x, y0), name, font=f_hdr, fill=(150, 160, 175))
@@ -111,7 +111,7 @@ def render(video: str, tracks_csv: str, timeline: dict, summary: dict, meta: dic
             colr = pid_color(p)
             d.rectangle((16, y + 3, 28, y + 15), fill=colr)
             d.text((34, y), p.replace("PLAYER_", "P"), font=f_row, fill=(255, 255, 255))
-            st, stc = ("с мячом", (255, 170, 60)) if with_ball else (("в кадре", (120, 220, 120)) if on else ("—", (110, 115, 125)))
+            st, stc = ("with ball", (255, 170, 60)) if with_ball else (("on screen", (120, 220, 120)) if on else ("—", (110, 115, 125)))
             d.text((cols[1][1], y), st, font=f_row, fill=stc)
             vals = [f"{tl['vis'][f]:.1f}", f"{tl['ball'][f]:.1f}", f"{touches}", f"{tl['dist'][f]:.0f}",
                     f"{tl['run'][f]:.0f}", f"{sp:.1f}" if on and not np.isnan(sp) else "—"]
@@ -121,7 +121,7 @@ def render(video: str, tracks_csv: str, timeline: dict, summary: dict, meta: dic
         # ---- minimap (top-down estimate)
         my0, my1 = y + 18, H - 92
         mx0, mx1 = 16, PANEL_W - 16
-        d.text((16, y + 2), "Мини-карта (вид сверху, оценка; внизу — ближе к камере)", font=f_small, fill=(150, 160, 175))
+        d.text((16, y + 2), "Mini-map (top-down, estimated; bottom = closer to camera)", font=f_small, fill=(150, 160, 175))
         d.rectangle((mx0, my0, mx1, my1), outline=(70, 74, 82))
 
         def to_map(x, z):
@@ -137,11 +137,11 @@ def render(video: str, tracks_csv: str, timeline: dict, summary: dict, meta: dic
                 cx, cy = to_map(*pos[fr.idx])
                 d.ellipse((cx - 6, cy - 6, cx + 6, cy + 6), fill=pid_color(p))
                 d.text((cx + 8, cy - 8), p.replace("PLAYER_", "P"), font=f_small, fill=(255, 255, 255))
-        notes = ["Номера P01–P09 — из регистрации (формы с номерами на видео нет).",
-                 "Считаются только кадры с подтверждённым ID; UNKNOWN не входит.",
-                 f"Дистанция/скорость — оценка без калибровки площадки: рост {meta['assumptions']['player_height_m']} м,",
-                 f"угол обзора {meta['assumptions']['fov_long_side_deg']}°; ожидаемая погрешность ±30%.",
-                 "«С мячом» — мяч у игрока в руках/ведение (разминка: у многих свой мяч)."]
+        notes = ["P01–P09 are registration IDs (no jersey numbers in this video).",
+                 "Only frames with a confirmed ID are counted; UNKNOWN is excluded.",
+                 f"Distance/speed are estimates without court calibration: height {meta['assumptions']['player_height_m']} m,",
+                 f"field of view {meta['assumptions']['fov_long_side_deg']}°; expected error ±30%.",
+                 "'With ball' = ball in hands / dribbling (warm-up: many have their own ball)."]
         for k, t in enumerate(notes):
             d.text((16, H - 86 + 16 * k), t, font=f_small, fill=(140, 146, 158))
         frame = np.hstack([img, cv2.cvtColor(np.array(panel), cv2.COLOR_RGB2BGR)])
