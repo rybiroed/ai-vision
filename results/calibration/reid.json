@@ -1,0 +1,32 @@
+{
+  "bias": -10.947562102201015,
+  "w": {
+    "reid": 19.690569256700307
+  },
+  "c": {
+    "reid": -0.0005667717845209662
+  },
+  "fit": {
+    "n_pairs": 29259,
+    "pos": 1937,
+    "loss": 0.09244188417473526,
+    "features": [
+      "reid"
+    ]
+  },
+  "thresholds": {
+    "abs_thr": -1.0,
+    "margin": 1.0,
+    "n_min": 2.0,
+    "col_margin": 0.0,
+    "contact_extra_margin": 0.5
+  },
+  "tuning": {
+    "frames": [
+      0,
+      820
+    ],
+    "max_wrong_rate": 0.001,
+    "feasible": true
+  }
+}

@@ -1,0 +1,3422 @@
+{
+  "baseline": {
+    "tune": {
+      "correct_confirmed": 2624,
+      "wrong_assignments": 1607,
+      "wrong_on_registered": 256,
+      "wrong_on_other_people": 1351,
+      "precision_confirmed": 0.6202,
+      "coverage_correct": 0.9111,
+      "unknown_share": 0.0,
+      "id_switches": 13,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.738,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "19/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2624,
+      "wrong_assignments": 1607,
+      "wrong_on_registered": 256,
+      "wrong_on_other_people": 1351,
+      "precision_confirmed": 0.6202,
+      "coverage_correct": 0.9111,
+      "unknown_share": 0.0,
+      "id_switches": 13,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.738,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "19/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 1.97,
+        "wrong_dets_in_3s": 88
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1360,
+      "wrong_assignments": 2287,
+      "wrong_on_registered": 731,
+      "wrong_on_other_people": 1556,
+      "precision_confirmed": 0.3729,
+      "coverage_correct": 0.6504,
+      "unknown_share": 0.0,
+      "id_switches": 10,
+      "track_switches": 21,
+      "impure_tracks": 6,
+      "idf1_player": 0.5152,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "8/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1360,
+      "wrong_assignments": 2287,
+      "wrong_on_registered": 731,
+      "wrong_on_other_people": 1556,
+      "precision_confirmed": 0.3729,
+      "coverage_correct": 0.6504,
+      "unknown_share": 0.0,
+      "id_switches": 10,
+      "track_switches": 21,
+      "impure_tracks": 6,
+      "idf1_player": 0.5152,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "8/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 19
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 67
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 67
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 91
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 83
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 76
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 91
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ]
+  },
+  "system[reid]": {
+    "tune": {
+      "correct_confirmed": 2647,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9191,
+      "unknown_share": 0.0809,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9578,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2464,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8556,
+      "unknown_share": 0.1444,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9222,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1930,
+      "wrong_assignments": 13,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 13,
+      "precision_confirmed": 0.9933,
+      "coverage_correct": 0.923,
+      "unknown_share": 0.077,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9569,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1829,
+      "wrong_assignments": 17,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 17,
+      "precision_confirmed": 0.9908,
+      "coverage_correct": 0.8747,
+      "unknown_share": 0.1253,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9291,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "calibration": "runs/report/calib/reid.json",
+    "thresholds": {
+      "abs_thr": -1.0,
+      "margin": 1.0,
+      "n_min": 2.0,
+      "col_margin": 0.0,
+      "contact_extra_margin": 0.5
+    },
+    "fit_s": 96.6
+  },
+  "system[colour_only]": {
+    "tune": {
+      "correct_confirmed": 2476,
+      "wrong_assignments": 26,
+      "wrong_on_registered": 16,
+      "wrong_on_other_people": 10,
+      "precision_confirmed": 0.9896,
+      "coverage_correct": 0.8597,
+      "unknown_share": 0.1347,
+      "id_switches": 2,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9201,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "14/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2264,
+      "wrong_assignments": 33,
+      "wrong_on_registered": 32,
+      "wrong_on_other_people": 1,
+      "precision_confirmed": 0.9856,
+      "coverage_correct": 0.7861,
+      "unknown_share": 0.2028,
+      "id_switches": 8,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.8746,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "14/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.93,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.53,
+        "wrong_dets_in_3s": 16
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1619,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.7743,
+      "unknown_share": 0.2257,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.8728,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "12/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1532,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.7327,
+      "unknown_share": 0.2673,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.8457,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "11/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.03,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "calibration": "runs/report/calib/colour_only.json",
+    "thresholds": {},
+    "fit_s": 126.3
+  },
+  "system[reid+body_colour]": {
+    "tune": {
+      "correct_confirmed": 2641,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.917,
+      "unknown_share": 0.083,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9567,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2458,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8535,
+      "unknown_share": 0.1465,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9209,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1929,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9225,
+      "unknown_share": 0.0775,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9597,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1743,
+      "wrong_assignments": 73,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 73,
+      "precision_confirmed": 0.9598,
+      "coverage_correct": 0.8336,
+      "unknown_share": 0.1664,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.8922,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "calibration": "runs/report/calib/reid+body_colour.json",
+    "thresholds": {
+      "abs_thr": -1.0,
+      "margin": 2.0,
+      "n_min": 2.0,
+      "col_margin": 0.0,
+      "contact_extra_margin": 0.5
+    },
+    "fit_s": 99.1
+  },
+  "system[reid+body_colour+shoes]": {
+    "tune": {
+      "correct_confirmed": 2647,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9191,
+      "unknown_share": 0.0809,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9578,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2453,
+      "wrong_assignments": 3,
+      "wrong_on_registered": 3,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 0.9988,
+      "coverage_correct": 0.8517,
+      "unknown_share": 0.1472,
+      "id_switches": 2,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9194,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1825,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8728,
+      "unknown_share": 0.1272,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9321,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "13/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1737,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8307,
+      "unknown_share": 0.1693,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9075,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "13/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.03,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "calibration": "runs/report/calib/reid+body_colour+shoes.json",
+    "thresholds": {
+      "abs_thr": 1.0,
+      "margin": 0.5,
+      "n_min": 2.0,
+      "col_margin": 0.0,
+      "contact_extra_margin": 0.5
+    },
+    "fit_s": 100.1
+  },
+  "system[all(+hair)]": {
+    "tune": {
+      "correct_confirmed": 2647,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9191,
+      "unknown_share": 0.0809,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9578,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2455,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8524,
+      "unknown_share": 0.1476,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9203,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1861,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.89,
+      "unknown_share": 0.11,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9418,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1778,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8503,
+      "unknown_share": 0.1497,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9191,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "calibration": "runs/report/calib/all(+hair).json",
+    "thresholds": {
+      "abs_thr": 0.0,
+      "margin": 2.0,
+      "n_min": 2.0,
+      "col_margin": 0.0,
+      "contact_extra_margin": 0.5
+    },
+    "fit_s": 101.8
+  },
+  "chosen_feature_set": "reid",
+  "ablation[no_appearance_split]": {
+    "tune": {
+      "correct_confirmed": 2631,
+      "wrong_assignments": 16,
+      "wrong_on_registered": 16,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 0.994,
+      "coverage_correct": 0.9135,
+      "unknown_share": 0.0809,
+      "id_switches": 2,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9521,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2455,
+      "wrong_assignments": 16,
+      "wrong_on_registered": 16,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 0.9935,
+      "coverage_correct": 0.8524,
+      "unknown_share": 0.142,
+      "id_switches": 3,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9176,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1942,
+      "wrong_assignments": 13,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 13,
+      "precision_confirmed": 0.9934,
+      "coverage_correct": 0.9287,
+      "unknown_share": 0.0713,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.96,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1814,
+      "wrong_assignments": 17,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 17,
+      "precision_confirmed": 0.9907,
+      "coverage_correct": 0.8675,
+      "unknown_share": 0.1325,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.925,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ]
+  },
+  "ablation[no_motion_priors]": {
+    "tune": {
+      "correct_confirmed": 2647,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9191,
+      "unknown_share": 0.0809,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9578,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2464,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8556,
+      "unknown_share": 0.1444,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9222,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1930,
+      "wrong_assignments": 13,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 13,
+      "precision_confirmed": 0.9933,
+      "coverage_correct": 0.923,
+      "unknown_share": 0.077,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9569,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1829,
+      "wrong_assignments": 17,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 17,
+      "precision_confirmed": 0.9908,
+      "coverage_correct": 0.8747,
+      "unknown_share": 0.1253,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9291,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ]
+  },
+  "ablation[no_tracker_appearance_gate]": {
+    "tune": {
+      "correct_confirmed": 2647,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9191,
+      "unknown_share": 0.0809,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9578,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2464,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.8556,
+      "unknown_share": 0.1444,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9222,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.13,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 1930,
+      "wrong_assignments": 13,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 13,
+      "precision_confirmed": 0.9933,
+      "coverage_correct": 0.923,
+      "unknown_share": 0.077,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 6,
+      "idf1_player": 0.9569,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1830,
+      "wrong_assignments": 17,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 17,
+      "precision_confirmed": 0.9908,
+      "coverage_correct": 0.8752,
+      "unknown_share": 0.1248,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 6,
+      "idf1_player": 0.9294,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.57,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.17,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ]
+  },
+  "ablation[no_contact_segmentation]": {
+    "tune": {
+      "correct_confirmed": 2800,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9722,
+      "unknown_share": 0.0278,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9859,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_online": {
+      "correct_confirmed": 2609,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9059,
+      "unknown_share": 0.0941,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9506,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "15/19",
+      "labelled_dets": 4231,
+      "target_dets": 2880
+    },
+    "tune_recovery": [
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 571,
+        "back_at": 660,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 61,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 111,
+        "back_at": 522,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 15,
+        "back_at": 649,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 113,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 49,
+        "back_at": 270,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 80,
+        "back_at": 366,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 74,
+        "back_at": 562,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 69,
+        "back_at": 676,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 149,
+        "back_at": 255,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_khaki_man",
+        "player_id": "PLAYER_09",
+        "gone_frames": 15,
+        "back_at": 296,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 45,
+        "back_at": 182,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "rtn_kid",
+        "player_id": "PLAYER_04",
+        "gone_frames": 99,
+        "back_at": 797,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 39,
+        "back_at": 245,
+        "recovered_s": null,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 347,
+        "back_at": 620,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 17,
+        "back_at": 140,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 241,
+        "back_at": 416,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 100,
+        "back_at": 629,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "red_shorts",
+        "player_id": "PLAYER_06",
+        "gone_frames": 21,
+        "back_at": 708,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ],
+    "test": {
+      "correct_confirmed": 2044,
+      "wrong_assignments": 23,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 23,
+      "precision_confirmed": 0.9889,
+      "coverage_correct": 0.9775,
+      "unknown_share": 0.0225,
+      "id_switches": 0,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9832,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_online": {
+      "correct_confirmed": 1947,
+      "wrong_assignments": 36,
+      "wrong_on_registered": 12,
+      "wrong_on_other_people": 24,
+      "precision_confirmed": 0.9818,
+      "coverage_correct": 0.9311,
+      "unknown_share": 0.0631,
+      "id_switches": 2,
+      "track_switches": 21,
+      "impure_tracks": 5,
+      "idf1_player": 0.9558,
+      "idf1_track": 0.5438,
+      "recovered_within_3s": "14/14",
+      "labelled_dets": 3647,
+      "target_dets": 2091
+    },
+    "test_recovery": [
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 154,
+        "back_at": 986,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 70,
+        "back_at": 1092,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 32,
+        "back_at": 1163,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 23,
+        "back_at": 1250,
+        "recovered_s": 0.97,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 25,
+        "back_at": 1279,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "navy_man",
+        "player_id": "PLAYER_02",
+        "gone_frames": 151,
+        "back_at": 1535,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 49,
+        "back_at": 924,
+        "recovered_s": 0.4,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 24,
+        "back_at": 1107,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "olive_man",
+        "player_id": "PLAYER_05",
+        "gone_frames": 303,
+        "back_at": 1435,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "tank",
+        "player_id": "PLAYER_01",
+        "gone_frames": 258,
+        "back_at": 1472,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 881,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 46,
+        "back_at": 1199,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "black_print",
+        "player_id": "PLAYER_03",
+        "gone_frames": 16,
+        "back_at": 1246,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      },
+      {
+        "gt": "old_tank",
+        "player_id": "PLAYER_08",
+        "gone_frames": 33,
+        "back_at": 1242,
+        "recovered_s": 0.0,
+        "wrong_dets_in_3s": 0
+      }
+    ]
+  }
+}

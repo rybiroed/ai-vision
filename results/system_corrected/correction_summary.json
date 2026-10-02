@@ -1,0 +1,75 @@
+{
+  "ops_total": 17,
+  "ops_fix_wrong": 0,
+  "ops_raise_coverage": 17,
+  "rerun_identity_s": 2.6,
+  "video_seconds": 54.6,
+  "after": {
+    "all": {
+      "frames": [
+        0,
+        1000000
+      ],
+      "labelled_dets": 7953,
+      "target_dets": 5100,
+      "other_dets": 2853,
+      "correct_confirmed": 4852,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9514,
+      "unknown_share": 0.0486,
+      "id_switches": 0,
+      "track_switches": 59,
+      "impure_tracks": 8,
+      "idf1_player": 0.9751,
+      "idf1_track": 0.3755,
+      "recovered_within_3s": "37/41"
+    },
+    "tune": {
+      "frames": [
+        0,
+        820
+      ],
+      "labelled_dets": 4231,
+      "target_dets": 2880,
+      "other_dets": 1351,
+      "correct_confirmed": 2770,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9618,
+      "unknown_share": 0.0382,
+      "id_switches": 0,
+      "track_switches": 32,
+      "impure_tracks": 2,
+      "idf1_player": 0.9805,
+      "idf1_track": 0.5455,
+      "recovered_within_3s": "17/19"
+    },
+    "test": {
+      "frames": [
+        820,
+        1638
+      ],
+      "labelled_dets": 3722,
+      "target_dets": 2220,
+      "other_dets": 1502,
+      "correct_confirmed": 2082,
+      "wrong_assignments": 0,
+      "wrong_on_registered": 0,
+      "wrong_on_other_people": 0,
+      "precision_confirmed": 1.0,
+      "coverage_correct": 0.9378,
+      "unknown_share": 0.0622,
+      "id_switches": 0,
+      "track_switches": 23,
+      "impure_tracks": 6,
+      "idf1_player": 0.9679,
+      "idf1_track": 0.5459,
+      "recovered_within_3s": "15/17"
+    }
+  }
+}

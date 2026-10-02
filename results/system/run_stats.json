@@ -1,0 +1,11 @@
+{
+  "mode": "system",
+  "features": [
+    "reid"
+  ],
+  "second_pass": true,
+  "tracks": 91,
+  "identity_wall_s": 2.08,
+  "peak_rss_mb": 276.0,
+  "weak_registrations": []
+}

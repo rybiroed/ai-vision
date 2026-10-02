@@ -1,0 +1,86 @@
+{
+  "chunk_frames": 600,
+  "detector": {
+    "model": "models/yolox_m.onnx",
+    "store_score_thr": 0.25,
+    "nms_thr": 0.5,
+    "tiles": "none"
+  },
+  "features": {
+    "reid_model": "models/person_reid_youtu_2021nov.onnx"
+  },
+  "camera": {
+    "min_inliers": 25,
+    "cut_hist_corr": 0.55
+  },
+  "tracker": {
+    "high_thr": 0.5,
+    "low_thr": 0.25,
+    "new_track_thr": 0.55,
+    "match_iou": 0.25,
+    "match_iou_low": 0.4,
+    "max_lost_frames": 30,
+    "min_box_height": 24,
+    "appearance_gate": null,
+    "appearance_gate_min_height": 60,
+    "embedding_ema": 0.9
+  },
+  "identity": {
+    "features_enabled": [
+      "reid"
+    ],
+    "calibration": "configs/calibration.json",
+    "default_calibration": {
+      "bias": -3.0,
+      "w": {
+        "reid": 10.0,
+        "torso": 4.0,
+        "legs": 4.0,
+        "shoes": 2.0,
+        "hair": 2.0
+      },
+      "c": {
+        "reid": 0.55,
+        "torso": 0.6,
+        "legs": 0.6,
+        "shoes": 0.6,
+        "hair": 0.6
+      }
+    },
+    "q_h0": 30,
+    "q_h1": 120,
+    "q_occ_max": 0.6,
+    "q_trunc_factor": 0.5,
+    "contact_iou": 0.1,
+    "contact_min_frames": 3,
+    "gap_split_frames": 5,
+    "abs_thr": 0.0,
+    "hysteresis": 1.0,
+    "margin": 1.0,
+    "col_margin": 0.5,
+    "n_min": 3.0,
+    "n_min_reconfirm": 1.0,
+    "n_min_col": 1.0,
+    "unregistered_thr": -2.0,
+    "continuity_bonus": 0.0,
+    "reentry_bonus": 0.0,
+    "reentry_tau": 30,
+    "reentry_max_gap": 90,
+    "reentry_max_dist_h": 1.5,
+    "reg_min_samples": 2,
+    "reg_min_height": 70,
+    "baseline_min_cos": 0.0,
+    "appearance_split": true,
+    "split_window": 6,
+    "split_min_height": 45,
+    "split_cos_hard": 0.55,
+    "split_cos_soft": 0.8,
+    "split_margin": 1.0,
+    "contact_extra_margin": 1.0
+  },
+  "_notes": {
+    "features_enabled": "chosen on tuning split (frames 0-819): reid / reid+colour / +shoes / +hair tied on tuning; simplest set kept. See docs/REPORT.md",
+    "motion_priors": "continuity/reentry bonuses had no measurable effect on tuning or test -> disabled by default (prompt rule: indistinguishable features are not enabled)",
+    "tracker.appearance_gate": "no measurable effect -> disabled by default"
+  }
+}

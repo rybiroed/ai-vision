@@ -1,0 +1,172 @@
+[
+  {
+    "op": "assign",
+    "track_id": 45,
+    "frames": [
+      676,
+      692
+    ],
+    "player_id": "PLAYER_03",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 22,
+    "frames": [
+      245,
+      261
+    ],
+    "player_id": "PLAYER_02",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 9,
+    "frames": [
+      58,
+      74
+    ],
+    "player_id": "PLAYER_06",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 85,
+    "frames": [
+      1573,
+      1589
+    ],
+    "player_id": "PLAYER_09",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 62,
+    "frames": [
+      1164,
+      1178
+    ],
+    "player_id": "PLAYER_02",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 44,
+    "frames": [
+      722,
+      736
+    ],
+    "player_id": "PLAYER_05",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 66,
+    "frames": [
+      1068,
+      1080
+    ],
+    "player_id": "PLAYER_03",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 28,
+    "frames": [
+      274,
+      286
+    ],
+    "player_id": "PLAYER_03",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 62,
+    "frames": [
+      924,
+      935
+    ],
+    "player_id": "PLAYER_05",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 85,
+    "frames": [
+      1555,
+      1565
+    ],
+    "player_id": "PLAYER_09",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 24,
+    "frames": [
+      479,
+      489
+    ],
+    "player_id": "PLAYER_06",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 89,
+    "frames": [
+      1604,
+      1612
+    ],
+    "player_id": "PLAYER_06",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 42,
+    "frames": [
+      679,
+      687
+    ],
+    "player_id": "PLAYER_06",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 1,
+    "frames": [
+      125,
+      133
+    ],
+    "player_id": "PLAYER_02",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 67,
+    "frames": [
+      1221,
+      1228
+    ],
+    "player_id": "PLAYER_07",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 24,
+    "frames": [
+      522,
+      529
+    ],
+    "player_id": "PLAYER_06",
+    "why": "raise_coverage"
+  },
+  {
+    "op": "assign",
+    "track_id": 85,
+    "frames": [
+      1478,
+      1484
+    ],
+    "player_id": "PLAYER_05",
+    "why": "raise_coverage"
+  }
+]

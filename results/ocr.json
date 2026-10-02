@@ -1,0 +1,155 @@
+{
+  "min_torso_px": 40,
+  "identities": {
+    "olive_man": {
+      "crops": 40,
+      "attempted": 34,
+      "max_box_height_px": 106.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "tank": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 189.0,
+      "any_text_reads": 2,
+      "digit_reads": 0,
+      "top_texts": [
+        [
+          "P",
+          1
+        ],
+        [
+          "y",
+          1
+        ]
+      ],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "black_print": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 119.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "black_khaki_man": {
+      "crops": 40,
+      "attempted": 35,
+      "max_box_height_px": 106.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "rtn_kid": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 469.0,
+      "any_text_reads": 29,
+      "digit_reads": 0,
+      "top_texts": [
+        [
+          "PATALS",
+          2
+        ],
+        [
+          "MRLS",
+          2
+        ],
+        [
+          "ADTO",
+          2
+        ],
+        [
+          "TAL.S",
+          1
+        ],
+        [
+          "MAPTALS",
+          1
+        ]
+      ],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "navy_man": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 161.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "red_shorts": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 116.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "old_tank": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 211.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "gray_man": {
+      "crops": 40,
+      "attempted": 40,
+      "max_box_height_px": 155.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    },
+    "dread_man": {
+      "crops": 40,
+      "attempted": 0,
+      "max_box_height_px": 86.0,
+      "any_text_reads": 0,
+      "digit_reads": 0,
+      "top_texts": [],
+      "number": {
+        "confirmed": null,
+        "candidates": []
+      }
+    }
+  }
+}

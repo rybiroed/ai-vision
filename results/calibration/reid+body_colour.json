@@ -1,0 +1,38 @@
+{
+  "bias": -14.92083862777406,
+  "w": {
+    "reid": 15.342613603793167,
+    "torso": 3.516663820130279,
+    "legs": 5.8441655253854
+  },
+  "c": {
+    "reid": -0.0002870766355688264,
+    "torso": -0.0012524671448538628,
+    "legs": -0.0007536586488503609
+  },
+  "fit": {
+    "n_pairs": 29259,
+    "pos": 1937,
+    "loss": 0.07580424506522368,
+    "features": [
+      "reid",
+      "torso",
+      "legs"
+    ]
+  },
+  "thresholds": {
+    "abs_thr": 1.0,
+    "margin": 0.5,
+    "n_min": 2.0,
+    "col_margin": 0.0,
+    "contact_extra_margin": 0.5
+  },
+  "tuning": {
+    "frames": [
+      0,
+      820
+    ],
+    "max_wrong_rate": 0.001,
+    "feasible": true
+  }
+}

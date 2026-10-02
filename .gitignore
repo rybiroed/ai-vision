@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.onnx
+runs/
+match/corrections.json
+*.tmp
+*.tmp.mp4
+runs_full_precompute.log

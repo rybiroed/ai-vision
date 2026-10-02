@@ -1,0 +1,29 @@
+{
+  "video": "data/raw/VIDEO-2026-10-02-14-05-11.mp4",
+  "frames": 1638,
+  "detections": 9356,
+  "frame_hw": [
+    848,
+    480
+  ],
+  "wall_s": 623.17,
+  "fps": 2.628,
+  "stage_s": {
+    "detect": 367.62,
+    "camera": 36.24,
+    "features": 215.21
+  },
+  "peak_rss_mb": 730.1,
+  "providers": [
+    "AzureExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "video_meta": {
+    "codec": "h264",
+    "coded_wh": [
+      848,
+      480
+    ],
+    "duration_s": 54.625
+  }
+}

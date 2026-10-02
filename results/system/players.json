@@ -1,0 +1,1114 @@
+{
+  "match": null,
+  "players": {
+    "PLAYER_01": {
+      "player_id": "PLAYER_01",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 1,
+          "frame": 0,
+          "box": [
+            258.0,
+            248.4,
+            283.1,
+            357.2
+          ],
+          "quality": {
+            "height_px": 109.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1726.1,
+            "det_score": 0.863
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_01_1.jpg",
+          "added_at": "2026-10-02T20:11:42+00:00"
+        },
+        {
+          "det_id": 2009,
+          "frame": 280,
+          "box": [
+            202.9,
+            301.6,
+            246.6,
+            424.0
+          ],
+          "quality": {
+            "height_px": 122.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 408.1,
+            "det_score": 0.89
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_01_2009.jpg",
+          "added_at": "2026-10-02T20:11:43+00:00"
+        },
+        {
+          "det_id": 3340,
+          "frame": 539,
+          "box": [
+            127.8,
+            320.0,
+            158.2,
+            419.0
+          ],
+          "quality": {
+            "height_px": 99.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 996.4,
+            "det_score": 0.805
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_01_3340.jpg",
+          "added_at": "2026-10-02T20:11:44+00:00"
+        },
+        {
+          "det_id": 4889,
+          "frame": 819,
+          "box": [
+            120.7,
+            323.5,
+            165.5,
+            451.8
+          ],
+          "quality": {
+            "height_px": 129.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1343.0,
+            "det_score": 0.839
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_01_4889.jpg",
+          "added_at": "2026-10-02T20:11:46+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:11:42+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:42+00:00",
+          "action": "add_sample",
+          "det_id": 1,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:43+00:00",
+          "action": "add_sample",
+          "det_id": 2009,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:44+00:00",
+          "action": "add_sample",
+          "det_id": 3340,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:46+00:00",
+          "action": "add_sample",
+          "det_id": 4889,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_02": {
+      "player_id": "PLAYER_02",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 340,
+          "frame": 43,
+          "box": [
+            3.7,
+            262.2,
+            38.9,
+            371.3
+          ],
+          "quality": {
+            "height_px": 109.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 663.0,
+            "det_score": 0.794
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_02_340.jpg",
+          "added_at": "2026-10-02T20:11:47+00:00"
+        },
+        {
+          "det_id": 3780,
+          "frame": 646,
+          "box": [
+            10.1,
+            328.6,
+            49.4,
+            439.6
+          ],
+          "quality": {
+            "height_px": 111.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 746.5,
+            "det_score": 0.882
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_02_3780.jpg",
+          "added_at": "2026-10-02T20:11:48+00:00"
+        },
+        {
+          "det_id": 4116,
+          "frame": 701,
+          "box": [
+            66.8,
+            329.5,
+            101.5,
+            436.3
+          ],
+          "quality": {
+            "height_px": 106.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 851.9,
+            "det_score": 0.75
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_02_4116.jpg",
+          "added_at": "2026-10-02T20:11:50+00:00"
+        },
+        {
+          "det_id": 4845,
+          "frame": 813,
+          "box": [
+            2.1,
+            324.3,
+            71.5,
+            451.0
+          ],
+          "quality": {
+            "height_px": 127.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 559.0,
+            "det_score": 0.914
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_02_4845.jpg",
+          "added_at": "2026-10-02T20:11:51+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:11:47+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:47+00:00",
+          "action": "add_sample",
+          "det_id": 340,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:48+00:00",
+          "action": "add_sample",
+          "det_id": 3780,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:50+00:00",
+          "action": "add_sample",
+          "det_id": 4116,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:51+00:00",
+          "action": "add_sample",
+          "det_id": 4845,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_03": {
+      "player_id": "PLAYER_03",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 2,
+          "frame": 0,
+          "box": [
+            149.4,
+            263.7,
+            174.4,
+            347.5
+          ],
+          "quality": {
+            "height_px": 83.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 2006.5,
+            "det_score": 0.839
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_03_2.jpg",
+          "added_at": "2026-10-02T20:11:52+00:00"
+        },
+        {
+          "det_id": 1022,
+          "frame": 132,
+          "box": [
+            195.2,
+            292.9,
+            218.5,
+            376.8
+          ],
+          "quality": {
+            "height_px": 84.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 693.9,
+            "det_score": 0.843
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_03_1022.jpg",
+          "added_at": "2026-10-02T20:11:53+00:00"
+        },
+        {
+          "det_id": 2786,
+          "frame": 412,
+          "box": [
+            152.9,
+            317.0,
+            188.0,
+            411.8
+          ],
+          "quality": {
+            "height_px": 95.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 2175.5,
+            "det_score": 0.851
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_03_2786.jpg",
+          "added_at": "2026-10-02T20:11:54+00:00"
+        },
+        {
+          "det_id": 4484,
+          "frame": 759,
+          "box": [
+            176.2,
+            343.9,
+            200.7,
+            423.6
+          ],
+          "quality": {
+            "height_px": 80.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 705.0,
+            "det_score": 0.808
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_03_4484.jpg",
+          "added_at": "2026-10-02T20:11:56+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:11:52+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:52+00:00",
+          "action": "add_sample",
+          "det_id": 2,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:53+00:00",
+          "action": "add_sample",
+          "det_id": 1022,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:54+00:00",
+          "action": "add_sample",
+          "det_id": 2786,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:56+00:00",
+          "action": "add_sample",
+          "det_id": 4484,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_04": {
+      "player_id": "PLAYER_04",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 383,
+          "frame": 49,
+          "box": [
+            410.6,
+            226.2,
+            477.5,
+            466.8
+          ],
+          "quality": {
+            "height_px": 241.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 470.2,
+            "det_score": 0.911
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_04_383.jpg",
+          "added_at": "2026-10-02T20:11:57+00:00"
+        },
+        {
+          "det_id": 1809,
+          "frame": 258,
+          "box": [
+            2.4,
+            225.1,
+            166.8,
+            596.8
+          ],
+          "quality": {
+            "height_px": 372.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 414.4,
+            "det_score": 0.935
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_04_1809.jpg",
+          "added_at": "2026-10-02T20:11:58+00:00"
+        },
+        {
+          "det_id": 3522,
+          "frame": 589,
+          "box": [
+            1.7,
+            203.0,
+            151.6,
+            620.5
+          ],
+          "quality": {
+            "height_px": 417.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 311.8,
+            "det_score": 0.94
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_04_3522.jpg",
+          "added_at": "2026-10-02T20:11:59+00:00"
+        },
+        {
+          "det_id": 4886,
+          "frame": 819,
+          "box": [
+            322.7,
+            303.5,
+            423.4,
+            526.1
+          ],
+          "quality": {
+            "height_px": 222.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 378.8,
+            "det_score": 0.937
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_04_4886.jpg",
+          "added_at": "2026-10-02T20:12:01+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:11:57+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:57+00:00",
+          "action": "add_sample",
+          "det_id": 383,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:58+00:00",
+          "action": "add_sample",
+          "det_id": 1809,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:11:59+00:00",
+          "action": "add_sample",
+          "det_id": 3522,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:01+00:00",
+          "action": "add_sample",
+          "det_id": 4886,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_05": {
+      "player_id": "PLAYER_05",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 0,
+          "frame": 0,
+          "box": [
+            42.5,
+            252.3,
+            81.4,
+            353.1
+          ],
+          "quality": {
+            "height_px": 101.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1233.7,
+            "det_score": 0.87
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_05_0.jpg",
+          "added_at": "2026-10-02T20:12:02+00:00"
+        },
+        {
+          "det_id": 227,
+          "frame": 30,
+          "box": [
+            32.6,
+            260.7,
+            68.4,
+            359.2
+          ],
+          "quality": {
+            "height_px": 98.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1023.0,
+            "det_score": 0.874
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_05_227.jpg",
+          "added_at": "2026-10-02T20:12:03+00:00"
+        },
+        {
+          "det_id": 3949,
+          "frame": 677,
+          "box": [
+            8.6,
+            327.7,
+            44.3,
+            431.1
+          ],
+          "quality": {
+            "height_px": 103.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 844.7,
+            "det_score": 0.886
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_05_3949.jpg",
+          "added_at": "2026-10-02T20:12:04+00:00"
+        },
+        {
+          "det_id": 4888,
+          "frame": 819,
+          "box": [
+            64.2,
+            337.0,
+            96.6,
+            427.4
+          ],
+          "quality": {
+            "height_px": 90.0,
+            "occlusion": 0.094,
+            "truncated": false,
+            "sharpness": 507.4,
+            "det_score": 0.844
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_05_4888.jpg",
+          "added_at": "2026-10-02T20:12:06+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:12:02+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:02+00:00",
+          "action": "add_sample",
+          "det_id": 0,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:03+00:00",
+          "action": "add_sample",
+          "det_id": 227,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:04+00:00",
+          "action": "add_sample",
+          "det_id": 3949,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:06+00:00",
+          "action": "add_sample",
+          "det_id": 4888,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_06": {
+      "player_id": "PLAYER_06",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 837,
+          "frame": 105,
+          "box": [
+            2.2,
+            286.2,
+            24.3,
+            366.8
+          ],
+          "quality": {
+            "height_px": 81.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 886.7,
+            "det_score": 0.751
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_06_837.jpg",
+          "added_at": "2026-10-02T20:12:07+00:00"
+        },
+        {
+          "det_id": 3803,
+          "frame": 651,
+          "box": [
+            95.0,
+            334.9,
+            132.7,
+            427.5
+          ],
+          "quality": {
+            "height_px": 93.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 702.0,
+            "det_score": 0.89
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_06_3803.jpg",
+          "added_at": "2026-10-02T20:12:08+00:00"
+        },
+        {
+          "det_id": 3885,
+          "frame": 665,
+          "box": [
+            91.7,
+            335.7,
+            125.8,
+            428.5
+          ],
+          "quality": {
+            "height_px": 93.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 597.9,
+            "det_score": 0.872
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_06_3885.jpg",
+          "added_at": "2026-10-02T20:12:10+00:00"
+        },
+        {
+          "det_id": 4297,
+          "frame": 729,
+          "box": [
+            1.8,
+            333.9,
+            38.1,
+            418.6
+          ],
+          "quality": {
+            "height_px": 85.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 625.0,
+            "det_score": 0.856
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_06_4297.jpg",
+          "added_at": "2026-10-02T20:12:11+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:12:07+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:07+00:00",
+          "action": "add_sample",
+          "det_id": 837,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:08+00:00",
+          "action": "add_sample",
+          "det_id": 3803,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:10+00:00",
+          "action": "add_sample",
+          "det_id": 3885,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:11+00:00",
+          "action": "add_sample",
+          "det_id": 4297,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_07": {
+      "player_id": "PLAYER_07",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 2129,
+          "frame": 296,
+          "box": [
+            136.3,
+            306.0,
+            175.2,
+            403.2
+          ],
+          "quality": {
+            "height_px": 97.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1332.5,
+            "det_score": 0.871
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_07_2129.jpg",
+          "added_at": "2026-10-02T20:12:12+00:00"
+        },
+        {
+          "det_id": 2215,
+          "frame": 307,
+          "box": [
+            156.6,
+            310.7,
+            204.0,
+            411.9
+          ],
+          "quality": {
+            "height_px": 101.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1162.8,
+            "det_score": 0.895
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_07_2215.jpg",
+          "added_at": "2026-10-02T20:12:14+00:00"
+        },
+        {
+          "det_id": 2259,
+          "frame": 313,
+          "box": [
+            166.7,
+            307.1,
+            200.8,
+            408.5
+          ],
+          "quality": {
+            "height_px": 102.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1618.3,
+            "det_score": 0.856
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_07_2259.jpg",
+          "added_at": "2026-10-02T20:12:15+00:00"
+        },
+        {
+          "det_id": 2515,
+          "frame": 353,
+          "box": [
+            95.1,
+            316.7,
+            154.5,
+            407.4
+          ],
+          "quality": {
+            "height_px": 90.0,
+            "occlusion": 0.056,
+            "truncated": false,
+            "sharpness": 793.4,
+            "det_score": 0.877
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_07_2515.jpg",
+          "added_at": "2026-10-02T20:12:16+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:12:12+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:12+00:00",
+          "action": "add_sample",
+          "det_id": 2129,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:14+00:00",
+          "action": "add_sample",
+          "det_id": 2215,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:15+00:00",
+          "action": "add_sample",
+          "det_id": 2259,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:16+00:00",
+          "action": "add_sample",
+          "det_id": 2515,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_08": {
+      "player_id": "PLAYER_08",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 1829,
+          "frame": 260,
+          "box": [
+            182.5,
+            308.9,
+            221.5,
+            399.8
+          ],
+          "quality": {
+            "height_px": 91.0,
+            "occlusion": 0.039,
+            "truncated": false,
+            "sharpness": 914.5,
+            "det_score": 0.778
+          },
+          "view": "back",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_08_1829.jpg",
+          "added_at": "2026-10-02T20:12:17+00:00"
+        },
+        {
+          "det_id": 2292,
+          "frame": 317,
+          "box": [
+            257.6,
+            313.5,
+            297.0,
+            406.9
+          ],
+          "quality": {
+            "height_px": 94.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 1256.5,
+            "det_score": 0.861
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_08_2292.jpg",
+          "added_at": "2026-10-02T20:12:18+00:00"
+        },
+        {
+          "det_id": 2323,
+          "frame": 321,
+          "box": [
+            251.4,
+            319.3,
+            294.6,
+            405.9
+          ],
+          "quality": {
+            "height_px": 87.0,
+            "occlusion": 0.0,
+            "truncated": false,
+            "sharpness": 891.4,
+            "det_score": 0.881
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_08_2323.jpg",
+          "added_at": "2026-10-02T20:12:19+00:00"
+        },
+        {
+          "det_id": 2382,
+          "frame": 329,
+          "box": [
+            216.9,
+            319.1,
+            280.1,
+            407.7
+          ],
+          "quality": {
+            "height_px": 89.0,
+            "occlusion": 0.027,
+            "truncated": false,
+            "sharpness": 442.8,
+            "det_score": 0.881
+          },
+          "view": "side",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_08_2382.jpg",
+          "added_at": "2026-10-02T20:12:20+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:12:17+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:17+00:00",
+          "action": "add_sample",
+          "det_id": 1829,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:18+00:00",
+          "action": "add_sample",
+          "det_id": 2292,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:19+00:00",
+          "action": "add_sample",
+          "det_id": 2323,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:20+00:00",
+          "action": "add_sample",
+          "det_id": 2382,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    },
+    "PLAYER_09": {
+      "player_id": "PLAYER_09",
+      "team": null,
+      "number": null,
+      "samples": [
+        {
+          "det_id": 209,
+          "frame": 28,
+          "box": [
+            58.2,
+            262.1,
+            91.9,
+            347.8
+          ],
+          "quality": {
+            "height_px": 86.0,
+            "occlusion": 0.296,
+            "truncated": false,
+            "sharpness": 598.8,
+            "det_score": 0.882
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_09_209.jpg",
+          "added_at": "2026-10-02T20:12:21+00:00"
+        },
+        {
+          "det_id": 759,
+          "frame": 95,
+          "box": [
+            63.8,
+            283.2,
+            89.7,
+            362.1
+          ],
+          "quality": {
+            "height_px": 79.0,
+            "occlusion": 0.282,
+            "truncated": false,
+            "sharpness": 690.1,
+            "det_score": 0.809
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_09_759.jpg",
+          "added_at": "2026-10-02T20:12:22+00:00"
+        },
+        {
+          "det_id": 773,
+          "frame": 97,
+          "box": [
+            65.0,
+            283.5,
+            91.2,
+            361.1
+          ],
+          "quality": {
+            "height_px": 77.0,
+            "occlusion": 0.215,
+            "truncated": false,
+            "sharpness": 605.2,
+            "det_score": 0.807
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_09_773.jpg",
+          "added_at": "2026-10-02T20:12:23+00:00"
+        },
+        {
+          "det_id": 819,
+          "frame": 103,
+          "box": [
+            67.7,
+            284.9,
+            94.6,
+            360.6
+          ],
+          "quality": {
+            "height_px": 76.0,
+            "occlusion": 0.27,
+            "truncated": false,
+            "sharpness": 553.5,
+            "det_score": 0.834
+          },
+          "view": "front",
+          "source": "user:cli(gt-annotator)",
+          "image": "match/samples/PLAYER_09_819.jpg",
+          "added_at": "2026-10-02T20:12:24+00:00"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-10-02T20:12:21+00:00",
+          "action": "created",
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:21+00:00",
+          "action": "add_sample",
+          "det_id": 209,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:22+00:00",
+          "action": "add_sample",
+          "det_id": 759,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:23+00:00",
+          "action": "add_sample",
+          "det_id": 773,
+          "source": "user:cli(gt-annotator)"
+        },
+        {
+          "at": "2026-10-02T20:12:24+00:00",
+          "action": "add_sample",
+          "det_id": 819,
+          "source": "user:cli(gt-annotator)"
+        }
+      ]
+    }
+  },
+  "registration_problems": {
+    "PLAYER_01": [],
+    "PLAYER_02": [],
+    "PLAYER_03": [],
+    "PLAYER_04": [],
+    "PLAYER_05": [],
+    "PLAYER_06": [],
+    "PLAYER_07": [],
+    "PLAYER_08": [],
+    "PLAYER_09": []
+  }
+}
